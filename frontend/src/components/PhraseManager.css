@@ -1,0 +1,133 @@
+.phrase-manager {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.phrase-manager h2 {
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.phrase-manager-desc {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.phrase-form {
+  background: var(--card-bg);
+  border: 2px solid #667eea;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.phrase-form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.phrase-input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--input-bg);
+  color: var(--text-primary);
+}
+
+.phrase-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.phrase-select {
+  padding: 0.75rem;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--input-bg);
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.phrase-select:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.phrases-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.no-phrases {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-tertiary);
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+}
+
+.phrase-group {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.phrase-group h3 {
+  font-size: 1.1rem;
+  color: #667eea;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.phrase-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.phrase-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.phrase-item:hover {
+  transform: translateX(5px);
+}
+
+.phrase-text {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+.btn-delete-phrase {
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.btn-delete-phrase:hover {
+  background: #dc2626;
+  transform: scale(1.1);
+}
