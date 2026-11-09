@@ -17,7 +17,7 @@ A full-featured employee evaluation application with AI-powered evaluation gener
 ### AI-Powered Evaluations
 - **Google Gemini Integration**: Automatic evaluation generation using gemini-2.5-flash
 - **Custom Prompts**: Write personalized evaluation criteria
-- **Approval Workflow**: Mark evaluations as "Approved" ✓ and "Sent" 📧
+- **Approval Workflow**: Mark evaluations as "Approved" ✓ and "Sent"
 - **Duplicate Detection**: AI-powered cross-user similarity checking
   - Detects similar evaluations within 2-week window
   - Works across different users for the same employee
