@@ -2,7 +2,7 @@
 
 A full-featured employee evaluation application with AI-powered evaluation generation using Google Gemini.
 
-## 🎯 Features
+## Features
 
 ### Authentication & User Management
 - **Secure Authentication**: JWT-based login and registration (7-day token validity)
@@ -35,7 +35,7 @@ A full-featured employee evaluation application with AI-powered evaluation gener
 - **Responsive Design**: Works on desktop and mobile devices
 - **Gradient Styling**: Modern, professional appearance
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Bravo/
@@ -54,7 +54,7 @@ Bravo/
 └── .github/          # Project configuration
 ```
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
 ### Prerequisites
 
@@ -139,28 +139,28 @@ npm run dev
 - `PUT /api/phrases/:id` - Update phrase
 - `DELETE /api/phrases/:id` - Delete phrase
 
-## 💡 Usage
+## Usage
 
 1. **Register/Login**: Create an account or login with existing credentials
-2. **Migration** (first-time only): If you have existing employees, click "🔄 Migrate Existing Employees" button
+2. **Migration** (first-time only): If you have existing employees, click "Migrate Existing Employees" button
 3. **Add Employees**: Click "+ Add New" button in the left sidebar
    - Note: Multiple users can track the same employee independently
-4. **Manage Phrases**: Toggle to "💡 Phrases" view to create reusable evaluation phrases
+4. **Manage Phrases**: Toggle to "Phrases" view to create reusable evaluation phrases
    - Organized by categories (Positive, Achievement, Skill, etc.)
 5. **Generate Evaluation**: 
    - Select an employee
    - Click "New Evaluation"
-   - Use "💡 Quick Phrases" button to insert pre-defined text
+   - Use "Quick Phrases" button to insert pre-defined text
    - System automatically checks for similar evaluations (even from other users)
    - If similar evaluation found, review and confirm to proceed
 6. **Approval Workflow**:
    - Mark evaluations as ✓ Approved with green checkmark
-   - Mark as 📧 Sent with email icon
+   - Mark as Sent with email icon
    - Visual color coding: green (approved), blue (sent), purple (both)
-7. **Theme Toggle**: Click 🌙/☀️ button to switch between dark/light mode
+7. **Theme Toggle**: Click button to switch between dark/light mode
 8. **View History**: All evaluations displayed with markdown formatting and status indicators
 
-## 🛠️ Technologies
+## Technologies
 
 ### Backend
 - Node.js + TypeScript
@@ -176,6 +176,6 @@ npm run dev
 - CSS3 with gradient styling
 - marked (markdown parsing)
 
-## 📝 License
+## License
 
 ISC
